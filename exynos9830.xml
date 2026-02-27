@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" />
+  <project path="hardware/samsung_slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="github" />
+  <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config" remote="github" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" remote="github" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" remote="github" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" remote="github" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" remote="github" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" remote="github" />
 
-  <remote name="exynos-republic"
-          fetch="https://github.com/exynos-republic"
-          revision="fourteen"
-          />
+  <project path="device/samsung/r8s" name="LineageOS/android_device_samsung_r8s" remote="github" />
+  <project path="device/samsung/universal9830-common" name="LineageOS/android_device_samsung_universal9830-common" remote="github" />
+  <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" />
 
-  <!-- Device Tree -->
-  <project name="device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="exynos-republic"/>
-  <project name="device_samsung_x1s" path="device/samsung/x1s" remote="exynos-republic"/>
-  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exynos-republic"/>
+  <project path="kernel/samsung/universal9830" name="LineageOS/android_kernel_samsung_universal9830" remote="github" />
 
-  <!-- Kernel -->
-  <!-- <project name="android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" revision="stable-120hz" remote="exynos-republic"/> -->
-
-  <!-- Vendor -->
-  <project name="vendor_samsung_x1s" path="vendor/samsung/x1s" remote="exynos-republic"/>
-  <project name="vendor_samsung_universal9830-common" path="vendor/samsung/universal9830-common" remote="exynos-republic"/>
-
-  <!-- Hardware -->
-  <project name="android_hardware_samsung" path="hardware/samsung"  remote="exynos-republic"/>
-  <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics"  remote="exynos-republic"/>
-  <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos"  remote="exynos-republic"/>
-  <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config"  remote="exynos-republic"/>
-  <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5"  remote="exynos-republic"/>
-  <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax"  remote="exynos-republic"/>
-  <project name="android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces"  remote="exynos-republic"/>
-
-  <!-- Misc Interfaces -->
-  <project name="android_hardware_samsung-ext_interfaces" path="hardware/samsung-ext/interfaces"  remote="exynos-republic"/>
+  <project path="vendor/samsung/universal9830-common" name="TheMuppets/proprietary_vendor_samsung_universal9830-common" remote="github" />
+  <project path="vendor/samsung/r8s" name="TheMuppets/proprietary_vendor_samsung_r8s" remote="github" />
 </manifest>

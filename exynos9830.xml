@@ -13,7 +13,7 @@
   <project path="device/samsung/universal9830-common" name="LineageOS/android_device_samsung_universal9830-common" remote="github" />
   <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" />
 
-  <project path="kernel/samsung/universal9830" name="ExtremeXT/990_upstream_v2" remote="github" revision="master" />
+  <project path="kernel/samsung/universal9830" name="ExtremeXT/990_upstream_v2" remote="github" />
 
   <project path="vendor/samsung/universal9830-common" name="TheMuppets/proprietary_vendor_samsung_universal9830-common" remote="github" />
   <project path="vendor/samsung/r8s" name="TheMuppets/proprietary_vendor_samsung_r8s" remote="github" />

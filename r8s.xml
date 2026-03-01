@@ -51,7 +51,7 @@
 
   <project
       path="device/samsung/r8s"
-      name="LineageOS/android_device_samsung_r8s"
+      name="lucasvidalouca0098-art/android_device_samsung_r8s"
       remote="github"
       revision="lineage-23.2" />
 
@@ -86,3 +86,4 @@
       revision="lineage-23.2" />
 
 </manifest>
+
